@@ -1,0 +1,10 @@
+/* Styling for the add post page */
+
+.add-post-form {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--color-bg-alt);
+}
