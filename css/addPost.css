@@ -42,3 +42,17 @@
   font-weight: 600;
 }
 
+
+@media screen and (max-width: 768px) {
+    .card{
+        width:100%;
+        margin:0;
+        padding: 15px;
+    }
+    
+    .topnav{
+        width:100%;
+        margin:0;
+        padding: 15px;
+    }
+}
