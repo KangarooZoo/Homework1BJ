@@ -1,4 +1,4 @@
-/* Styling for the add post page */
+*, *::before, *::after { box-sizing: border-box; }
 
 .add-post-form {
     display: flex;
@@ -43,7 +43,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
     .card{
         width:100%;
         margin:0;
