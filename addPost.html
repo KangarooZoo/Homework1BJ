@@ -7,25 +7,44 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/addPost.css">
   </head>
+
+
   <body>
     <!-- Navigation bar -->
-    <nav class="topnav">
+    <header class="topnav" role="navigation">
       <a href="index.html">Home</a>
       <a class="active" href="addPost.html">Add Post</a>
       <img class="profile-pic" src="img/profile.svg" alt="" />
-    </nav>
+      <a href="login.html" class="login-button">Login</a>
+    </header>
 
     <!-- Flex container with three items -->
-    <div class="flex-container">
-      <div class="flex-item">
-        <!-- Add post form -->
-         <div class="add-post-form">
-            <h2>Add New Post</h2>
-            
-         </div>
-      </div>
-      <div class="flex-item"></div>
-      <div class="flex-item"></div>
-    </div>
+    <main class="flex-container">
+      <section class="card">
+          <h1 class ="h2">Add New Post</h1>
+          <form action="/submit-post" method="POST" class="post-form">
+            <div class="form-field">
+              <label for="title">Title:</label>
+              <input id="title" name="title" type="text" required>
+            </div>
+
+            <div class="form-field">
+              <label for="content">Content:</label>
+              <textarea id="content" name="content" rows="10" required></textarea>
+            </div>
+
+            <div class="button">
+              <label for="file">Upload image:</label>
+              <button type="button" class="upload-button" aria-disabled="true">Choose File</button>
+            </div>
+
+            <div class="button">
+              <label for="addPost">Submit Post</label>
+              <button type="submit" class="submit-button">Submit Post</button>
+            </div>
+
+          </form>
+      </section>
+    </main>
   </body>
 </html>

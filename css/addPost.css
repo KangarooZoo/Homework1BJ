@@ -8,3 +8,37 @@
     border-radius: 8px;
     background-color: var(--color-bg-alt);
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color:chartreuse;
+    padding: 20px;
+    width: 100%;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+    gap: 10px;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: left;
+}
+
+.form-field:has(:is(input, textarea)[required]) > label::after{
+  content: " *";
+  color: var(--danger, #e53935);
+  font-weight: 600;
+}
+
