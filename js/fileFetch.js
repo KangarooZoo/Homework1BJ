@@ -24,11 +24,16 @@ window.onload = function () {
                 postTitle.textContent = singlePostInJSONObject.title;
                 const postBody = document.createElement('p');
                 postBody.textContent = singlePostInJSONObject.content;
-
+                
+                const postImg = document.createElement('img');
+                postImg.classList.add('post-image');
+                postImg.src = singlePostInJSONObject.image;
+                
+                article.appendChild(postImg);
                 article.appendChild(postTitle);
                 article.appendChild(postBody);
                 grid.appendChild(article);
-
+                
             }
         }).catch(err => {
             let errDiv = document.createElement("div");
