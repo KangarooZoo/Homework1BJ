@@ -47,5 +47,11 @@ window.onload = function () {
                 footer.querySelector('p').innerText = date;
             }
         })
-
+    const avatar = document.getElementById('user-photo');
+    const menu = document.getElementById('user-dropdown');
+    if (avatar && menu) {
+    avatar.addEventListener('click', () => {
+    menu.classList.toggle('show');
+  });
+}
 }
