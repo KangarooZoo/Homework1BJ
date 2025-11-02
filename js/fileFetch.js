@@ -25,11 +25,11 @@ window.onload = function () {
                 const postBody = document.createElement('p');
                 postBody.textContent = singlePostInJSONObject.content;
                 
-                const postImg = document.createElement('img');
-                postImg.classList.add('post-image');
-                postImg.src = singlePostInJSONObject.image;
+                const postImage = document.createElement('img');
+                postImage.classList.add('post-image');
+                postImage.src = singlePostInJSONObject.image;
                 
-                article.appendChild(postImg);
+                article.appendChild(postImage);
                 article.appendChild(postTitle);
                 article.appendChild(postBody);
                 grid.appendChild(article);
