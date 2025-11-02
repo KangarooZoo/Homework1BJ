@@ -98,6 +98,59 @@ body {
     text-align: center;
 }
 
+#right-side-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-menu {
+  position: relative;
+  display: inline-block;
+}
+
+#user-photo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid black;
+  object-fit: cover;
+  cursor: pointer;
+  background: #ccc; 
+}
+
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 4px);
+  background: #fff;
+  color: #000;
+  border: 1px solid #999;
+  border-radius: 4px;
+  display: none;
+  padding: 6px 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.dropdown.show {
+  display: block;
+}
+
+.dropdown p {
+  margin: 2px 0;
+}
+
+.dropdown a {
+  color: #000;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  text-decoration: underline;
+}
+
 
 @media screen and (max-width: 768px) {
     .container.narrow {          
