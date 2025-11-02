@@ -7,7 +7,8 @@ window.onload = function () {
         .then((response) => response.json())
         .then(json => {
             var grid = document.querySelector('.posts-grid');
-            for (const singlePostInJSONObject of json) {
+            var postsArray = json.record || json;
+            for (const singlePostInJSONObject of postsArray) {
                 const article = document.createElement('article');
                 article.classList.add('post-card');
                 const postHeader = document.createElement('div');
