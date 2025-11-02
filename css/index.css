@@ -98,6 +98,20 @@ body {
     text-align: center;
 }
 
+.user-menu { position: relative; display: inline-block; }
+.user-menu img { border-radius: 50%; cursor: pointer; border: 1px solid #000; }
+
+.dropdown {
+  position: absolute; right: 0; top: calc(100% + 8px);
+  min-width: 220px; background: #fff; color:#000;
+  border: 1px solid #ddd; border-radius: 8px; padding: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.15);
+  display: none; z-index: 1000;  
+}
+.dropdown.show { display: block; }
+.dropdown a { color: #000; text-decoration: none; }
+
+
 @media screen and (max-width: 768px) {
     .container.narrow {          
         width: 100%;       
