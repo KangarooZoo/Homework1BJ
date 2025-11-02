@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "First Post",
+        "author": "Karl Teetlaus",
+        "date": "2025-10-28",
+        "content": "This is the first dynamically loaded post.",
+        "image": "img/post1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Second Post",
+        "author": "Heisenberg",
+        "date": "2025-10-29",
+        "content": "Another example post for testing.",
+        "image": "img/post2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Third Post",
+        "author": "Juku Teetlaus",
+        "date": "2025-10-30",
+        "content": "YapYapYapYap",
+        "image": "img/post1.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Fourth Post",
+        "author": "Jesse",
+        "date": "2025-10-30",
+        "content": "YEAH SCIENCE!",
+        "image": "img/post1.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Fifth Post",
+        "author": "MeowMaxxer3000",
+        "date": "2025-11-6",
+        "content": "MEOW!",
+        "image": "img/post1.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Sixth Post",
+        "author": "Jukuza",
+        "date": "2025-11-1",
+        "content": "Ni Hao Ma",
+        "image": "img/post1.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Seventh Post",
+        "author": "Geekstar",
+        "date": "2025-11-1",
+        "content": "Geekin",
+        "image": "img/post1.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Eigth post",
+        "author": "Tweakstar",
+        "date": "2025-11-1",
+        "content": "IM TWEAKIN",
+        "image": "img/post1.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Ninth Post",
+        "author": "Leonard XVII",
+        "date": "2025-11-2",
+        "content": "OUI OUI",
+        "image": "img/post1.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Tenth post",
+        "author": "Ninja",
+        "date": "2025-11-2",
+        "content": "LOOOOOOWWWWW TAPERRRR FADEEEEE",
+        "image": "img/post1.jpg"
+    }
+]
