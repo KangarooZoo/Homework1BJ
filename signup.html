@@ -15,23 +15,22 @@
     <a href="index.html">Home</a>
     <a href="addPost.html">Add Post</a>
     <img class="profile-pic" src="img/profile.svg" alt="">
-    <a href="login.html" class="active">Login</a>
+    <a href="login.html">Login</a>
   </nav>
 
   <div class="flex-container">
     <div class="flex-item">
-      <!-- Login Form -->
+      <!-- Signup Form -->
       <div class="login-container">
         <h2 class="">Welcome to PostIt</h2>
-        <a href="signup.html">Create an account</a>
-        <p>or <br> Login to your existing account</p>
+        <a href="login.html">Login to your existing account</a>
+        <p>or <br> Create an account</p>
 
         <form class="login-form" action="index.html">
           <input placeholder="Email" type="text" id="username" name="username" required />
           <input placeholder="Password" type="password" id="password" name="password" required />
 
-          <button id="login-btn" type="submit" href="index.html">Login</button>
-          <a href="#">Forgot Password?</a>
+          <button id="login-btn" type="submit" href="index.html">Sign Up</button>
         </form>
       </div>
     </div>
@@ -42,6 +41,8 @@
   <footer class="footer">
     <p>bottom text</p>
   </footer>
+
+  <script src="js/passwordCheck.js"></script>
 </body>
 
 </html>
