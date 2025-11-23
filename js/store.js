@@ -6,7 +6,6 @@ const store = Vuex.createStore({
   },
   mutations: {
     SET_POSTS(state, posts) {
-      // Ensure each post has a 'likes' count
       state.posts = posts.map(p => ({ ...p, likes: 0 }));
     },
     INCREMENT_LIKE(state, id) {
