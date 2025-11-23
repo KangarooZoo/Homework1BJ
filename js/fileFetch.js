@@ -31,8 +31,39 @@ window.onload = function () {
                 article.appendChild(postTitle);
                 article.appendChild(postBody);
                 grid.appendChild(article);
-                
+
+                // Like button
+                const likeBtn = document.createElement('button');
+                likeBtn.type = 'button';
+                likeBtn.classList.add('like-btn');
+                likeBtn.textContent = 'Like ';
+
+                const likeCount = document.createElement('span');
+                likeCount.classList.add('like-count');
+                likeCount.textContent = '0';
+
+                likeBtn.appendChild(likeCount);
+                article.appendChild(likeBtn);
+
+                likeBtn.addEventListener('click', () => {
+                    const current = parseInt(likeCount.textContent) || 0;
+                    likeCount.textContent = current + 1;
+                });
+
+                grid.appendChild(article);
             }
+
+            const resetBtn = document.getElementById('reset-likes-btn');
+            if (resetBtn) {
+                resetBtn.addEventListener('click', () => {
+                    const allLikeCounts = document.querySelectorAll('.like-count');
+                    allLikeCounts.forEach(span => {
+                        span.textContent = '0';
+                    });
+                });
+            }
+
+                
         }).catch(err => {
             let errDiv = document.createElement("div");
             errDiv.className = 'post';
