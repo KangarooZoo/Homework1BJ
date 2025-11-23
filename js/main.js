@@ -6,11 +6,19 @@ const App = {
   created() {
     this.$store.dispatch('fetchPosts');
   },
+  methods: {
+    resetAll() { this.$store.dispatch('resetAllLikes'); }
+  },
   template: `
-    <section class="posts-grid">
-      <PostCard v-for="p in posts" :key="p.id" :post-id="p.id" />
+    <section class="content">
+      <div class="posts-grid">
+        <PostCard v-for="p in posts" :key="p.id" :post-id="p.id" />
+      </div>
+      <button id="reset-likes-btn" type="button" @click="resetAll">
+        Reset all likes
+      </button>
     </section>
   `
 };
 
-Vue.createApp(App).use(store).mount('.posts-grid');
+Vue.createApp(App).use(store).mount('.container.narrow');
