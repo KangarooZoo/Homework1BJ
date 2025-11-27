@@ -3,7 +3,7 @@
     <main class="container narrow">
       <section class="content">
         <div class="posts-grid">
-          <PostCard
+          <post
             v-for="post in posts"
             :key="post.id"
             :post-id="post.id"
