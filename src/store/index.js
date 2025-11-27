@@ -13,10 +13,10 @@ export default createStore({
   },
 
   getters: {
-    // all posts (for the listing)
+    // all posts
     allPosts: state => state.postList,
 
-    // get a single post by id (for Post component)
+    // get a single post by id
     postById: state => id =>
       state.postList.find(p => p.id === id)
   },
