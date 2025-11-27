@@ -1,3 +1,4 @@
+/*
 const store = Vuex.createStore({
   state() {
     return {
@@ -34,3 +35,4 @@ const store = Vuex.createStore({
     getPostById: s => id => s.posts.find(p => p.id === id)
   }
 });
+*/

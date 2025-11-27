@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>Bottom text</p>
+    <p>Copyright Team BJ</p>
   </footer>
 </template>
 
