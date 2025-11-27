@@ -17,13 +17,25 @@
 
 <script>
 export default {
-name: "Post",
-props: ["postList"],
-data: function() {
-return {
+  name: "PostCard",
 
-}},
-computed: {
-}
-}
+  props: {
+    postId: {
+      type: Number,
+      required: true
+    }
+  },
+
+  computed: {
+    post() {
+      return this.$store.getters.postById(this.postId);
+    }
+  },
+
+  methods: {
+    like() {
+      this.$store.dispatch('IncreaseLikeAct', this.postId);
+    }
+  }
+};
 </script>
