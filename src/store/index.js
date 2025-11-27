@@ -27,7 +27,12 @@ export default createStore({
       if (post) {
         post.likes++;
       }
-    }
+    },
+    ResetAllLikes(state) {
+    state.postList.forEach(p => {
+      p.likes = 0;
+    });
+  }
   },
 
   actions: {
@@ -35,6 +40,9 @@ export default createStore({
       setTimeout(() => {
         commit('IncreaseLike', postId);
       }, 1000);
-    }
+    },
+    resetAllLikes({ commit }) {
+    commit("ResetAllLikes");
+  }
   }
 });

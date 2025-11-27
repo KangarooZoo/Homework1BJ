@@ -1,5 +1,5 @@
 <template>
-  <article v-if="post" class="post-card">
+  <article v-if="post" class="post">
     <div class="post-header">
       <span class="post-date">{{ post.date }}</span>
       <h2 class="post-title">{{ post.title }}</h2>
@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: "PostCard",
+  name: "Post",
 
   props: {
     postId: {
