@@ -24,7 +24,7 @@
 
 <script>
 import { mapGetters } from "vuex";
-import post from "src/components/post.vue";
+import post from "@/components/post.vue";
 
 export default {
   name: "MainPage",
