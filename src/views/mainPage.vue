@@ -25,6 +25,8 @@
 <script>
 import { mapGetters } from "vuex";
 import BlogPost from "@/components/post.vue";
+import "@/css/index.css";
+import "@/css/post.css";
 
 export default {
   name: "MainPage",
