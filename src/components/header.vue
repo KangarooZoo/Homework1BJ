@@ -20,7 +20,7 @@
         <div class="dropdown" :class="{ show: dropdownOpen }">
           <p class="name"><strong>{{ userName }}</strong></p>
           <p class="email">{{ userEmail }}</p>
-          <a class="logout" href="#" @click.prevent="logout">Logout</a>
+          <a class="logout" href="#" >Logout</a>
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@ export default {
   data() {
     return {
       dropdownOpen: false,
-      userName: "Name",          // Later this could come from Vuex
+      userName: "Name",          
       userEmail: "name@example.com"
     };
   },
