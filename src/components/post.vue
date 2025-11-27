@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: "Post",
+  name: "BlogPost",
 
   props: {
     postId: {

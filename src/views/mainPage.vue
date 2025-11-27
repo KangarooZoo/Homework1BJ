@@ -3,7 +3,7 @@
     <main class="container narrow">
       <section class="content">
         <div class="posts-grid">
-          <post
+          <BlogPost
             v-for="post in posts"
             :key="post.id"
             :post-id="post.id"
@@ -24,12 +24,12 @@
 
 <script>
 import { mapGetters } from "vuex";
-import post from "@/components/post.vue";
+import BlogPost from "@/components/post.vue";
 
 export default {
   name: "MainPage",
   components: {
-    post
+    BlogPost
   },
   data() {
     return {
