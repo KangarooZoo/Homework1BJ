@@ -12,7 +12,7 @@
     <div class="right-side">
       <div class="user-menu">
         <img
-          src="@/assets/alternative.jpg"
+          src="/alternative.jpg"
           alt="User photo"
           class="profile-image"
           @click="toggleMenu"

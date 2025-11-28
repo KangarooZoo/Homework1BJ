@@ -5,7 +5,7 @@
         "author": "Karl Teetlaus",
         "date": "2025-10-28",
         "content": "This is the first dynamically loaded post.",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "author": "Heisenberg",
         "date": "2025-10-29",
         "content": "Another example post for testing.",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "author": "Juku Teetlaus",
         "date": "2025-10-30",
         "content": "YapYapYapYap",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "author": "Jesse",
         "date": "2025-10-30",
         "content": "YEAH SCIENCE!",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "author": "MeowMaxxer3000",
         "date": "2025-11-6",
         "content": "MEOW!",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "author": "Jukuza",
         "date": "2025-11-1",
         "content": "Ni Hao Ma",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "author": "Geekstar",
         "date": "2025-11-1",
         "content": "Geekin",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "author": "Tweakstar",
         "date": "2025-11-1",
         "content": "IM TWEAKIN",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "author": "Leonard XVII",
         "date": "2025-11-2",
         "content": "OUI OUI",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     },
     {
         "id": 10,
@@ -77,6 +77,6 @@
         "author": "Ninja",
         "date": "2025-11-2",
         "content": "LOOOOOOWWWWW TAPERRRR FADEEEEE",
-        "image": "@/assets/alternative.jpg"
+        "image": "/alternative.jpg"
     }
 ]
