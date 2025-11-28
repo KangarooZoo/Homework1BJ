@@ -27,8 +27,13 @@ body {
   border-radius: 8px;
 }
 
+.left-side .nav-link {
+  padding: 5px;
+}
+
 .left-side .nav-link:hover {
   background: #1a2130;
+  color: white;
 }
 
 .container.narrow {
