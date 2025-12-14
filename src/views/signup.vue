@@ -96,8 +96,4 @@ export default {
 };
 </script>
 
-<!-- Keep styles global so imported CSS applies as in original HTML -->
-<style>
-/* Component-specific adjustments (if any) can go here */
-</style>
 
