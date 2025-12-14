@@ -2,9 +2,9 @@
 const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
-const initDb = require('dbInit'); // database stuff
-const authRoutes = require('authRoutes');
-const postRoutes = require('postRoutes');
+const initDb = require('./dbinit'); // database stuff
+const authRoutes = require('./authRoutes');
+const postRoutes = require('./postRoutes');
 
 // set port number
 const port = process.env.PORT || 3000; // default is 3000
